@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "girlfriend",
+  "version": "1.0.0",
+  "name": "Girlfriend",
+  "description": "A custom-skin companion you can name, chat with (AI), and give kisses on the cheek.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.girlfriend.GirlfriendMod"],
+    "client": ["com.girlfriend.GirlfriendClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
